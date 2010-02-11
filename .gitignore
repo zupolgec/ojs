@@ -1,0 +1,10 @@
+/cache/
+/public/
+/config.inc.php
+.DS_Store
+/.project
+/.settings/
+/.buildpath
+/lib/adodb/
+/lib/smarty/
+/lib/tinymce/jscripts/tiny_mce/tiny_mce*.gz
