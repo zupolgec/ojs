@@ -41,5 +41,9 @@ class AdodbPostgres7Compat extends ADODB_postgres7 {
 		$returner =& parent::Execute($sql, $inputarr);
 		return $returner;
 	}
+
+	function &NewDataDictionary() {
+		return $this->delegate->_NewDataDictionaryDelegate('AdodbPostgres7CompatDict');
+	}
 }
 ?>
